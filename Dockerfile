@@ -1,0 +1,9 @@
+FROM joomla:latest
+EXPOSE 80
+VOLUME /var/www/html
+ENV JOOMLA_DB_HOST: sqldb
+ENV JOOMLA_DB_USER: joomla
+ENV JOOMLA_DB_PASSWORD: PWORD
+
+
+
